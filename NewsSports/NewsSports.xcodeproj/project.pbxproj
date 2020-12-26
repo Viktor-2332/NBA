@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663340AA2561A37A00DFDDC9 /* MainWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340A82561A37A00DFDDC9 /* MainWeatherTableViewCell.swift */; };
+		663340AB2561A37A00DFDDC9 /* MainWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663340A92561A37A00DFDDC9 /* MainWeatherTableViewCell.xib */; };
+		663340B12561A3B800DFDDC9 /* WindWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340AF2561A3B800DFDDC9 /* WindWeatherTableViewCell.swift */; };
+		663340B22561A3B800DFDDC9 /* WindWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663340B02561A3B800DFDDC9 /* WindWeatherTableViewCell.xib */; };
+		663340BB2561C3A300DFDDC9 /* CountryWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340B92561C3A300DFDDC9 /* CountryWeatherTableViewCell.swift */; };
+		663340BC2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663340BA2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib */; };
+		663340BF2561C63E00DFDDC9 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340BD2561C63E00DFDDC9 /* WeatherTableViewCell.swift */; };
+		663340C02561C63E00DFDDC9 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663340BE2561C63E00DFDDC9 /* WeatherTableViewCell.xib */; };
+		663340C42561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340C22561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.swift */; };
+		663340C52561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663340C32561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib */; };
+		663C92F92587E19800C0E5E2 /* TeamListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C92F82587E19800C0E5E2 /* TeamListResponse.swift */; };
+		663CB0292579603F00356FD6 /* TeamsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CB0282579603F00356FD6 /* TeamsDetailsViewController.swift */; };
+		663CB02B2579605500356FD6 /* TeamsDetailsiewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CB02A2579605500356FD6 /* TeamsDetailsiewModel.swift */; };
+		663CB02F257960DB00356FD6 /* GameDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CB02D257960DB00356FD6 /* GameDetailsTVCell.swift */; };
+		663CB030257960DB00356FD6 /* GameDetailsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663CB02E257960DB00356FD6 /* GameDetailsTVCell.xib */; };
+		66415BB2256A76090079BDA5 /* NetworkSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BB1256A76090079BDA5 /* NetworkSevice.swift */; };
+		66415BB5256A795E0079BDA5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BB4256A795E0079BDA5 /* Game.swift */; };
+		66415BB8256A7DB80079BDA5 /* SportsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BB7256A7DB80079BDA5 /* SportsFetcher.swift */; };
+		66415BBA256A854F0079BDA5 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BB9256A854F0079BDA5 /* Team.swift */; };
+		66415BBC256A86700079BDA5 /* PageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BBB256A86700079BDA5 /* PageResponse.swift */; };
+		66415BBE256A87110079BDA5 /* GameListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BBD256A87110079BDA5 /* GameListResponse.swift */; };
+		66415BC1256A879B0079BDA5 /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BC0256A879B0079BDA5 /* GamesListViewController.swift */; };
+		66415BC3256A87BB0079BDA5 /* GamesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */; };
+		664227D02583D9930035E6B1 /* TeamsNBAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227CF2583D9930035E6B1 /* TeamsNBAViewController.swift */; };
+		664227D22583D9AF0035E6B1 /* TeamsNBAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227D12583D9AF0035E6B1 /* TeamsNBAViewModel.swift */; };
+		664227D62583E3670035E6B1 /* TeamCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227D42583E3670035E6B1 /* TeamCVCell.swift */; };
+		664227D72583E3670035E6B1 /* TeamCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664227D52583E3670035E6B1 /* TeamCVCell.xib */; };
+		6642799A255C5CF100930567 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66427999255C5CF100930567 /* Constants.swift */; };
+		6642799C255C61A500930567 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642799B255C61A500930567 /* Weather.swift */; };
+		6642799F255C635100930567 /* MainWeatherParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642799E255C635100930567 /* MainWeatherParameters.swift */; };
+		664279A1255C642C00930567 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664279A0255C642C00930567 /* Wind.swift */; };
+		664279A3255C648900930567 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664279A2255C648900930567 /* CountryData.swift */; };
+		664279A5255C650200930567 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664279A4255C650200930567 /* WeatherResponse.swift */; };
+		664279A7255C65B300930567 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664279A6255C65B300930567 /* Coordinate.swift */; };
+		664279AA255C729A00930567 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664279A9255C729A00930567 /* WeatherViewModel.swift */; };
+		664333D92562F8CA002AE079 /* CoordWeatherTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664333D72562F8CA002AE079 /* CoordWeatherTableviewCell.swift */; };
+		664333DA2562F8CA002AE079 /* CoordWeatherTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664333D82562F8CA002AE079 /* CoordWeatherTableviewCell.xib */; };
+		664333DF25630231002AE079 /* WeatherInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664333DE25630231002AE079 /* WeatherInfoView.swift */; };
+		664333E125630240002AE079 /* WeatherInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664333E025630240002AE079 /* WeatherInfoView.xib */; };
+		66439834255B210000B49E1B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439833255B210000B49E1B /* WeatherViewController.swift */; };
+		66439837255B24C100B49E1B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439836255B24C100B49E1B /* WeatherService.swift */; };
+		66439839255B293300B49E1B /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439838255B293300B49E1B /* WeatherFetcher.swift */; };
+		665777FF2590E37200F52D6E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665777FE2590E37200F52D6E /* RegisterViewController.swift */; };
+		665778022590E39100F52D6E /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665778012590E39100F52D6E /* RegisterViewModel.swift */; };
+		665778042590E9BD00F52D6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665778032590E9BD00F52D6E /* User.swift */; };
+		6662084C2575674600FA4BB5 /* DaysCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662084A2575674600FA4BB5 /* DaysCVCell.swift */; };
+		6662084D2575674600FA4BB5 /* DaysCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6662084B2575674600FA4BB5 /* DaysCVCell.xib */; };
+		6662085025756BE700FA4BB5 /* DayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662084F25756BE700FA4BB5 /* DayObject.swift */; };
+		66620853257579E000FA4BB5 /* CustomJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66620852257579E000FA4BB5 /* CustomJSONDecoder.swift */; };
+		6664E994256EF54300CCAEFF /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6664E992256EF54300CCAEFF /* GameTableViewCell.swift */; };
+		6664E995256EF54300CCAEFF /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6664E993256EF54300CCAEFF /* GameTableViewCell.xib */; };
+		6665D064255727560003F68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D063255727560003F68C /* AppDelegate.swift */; };
+		6665D066255727560003F68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D065255727560003F68C /* SceneDelegate.swift */; };
+		6665D068255727560003F68C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D067255727560003F68C /* ViewController.swift */; };
+		6665D06B255727560003F68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6665D069255727560003F68C /* Main.storyboard */; };
+		6665D06D2557275A0003F68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6665D06C2557275A0003F68C /* Assets.xcassets */; };
+		6665D0702557275A0003F68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6665D06E2557275A0003F68C /* LaunchScreen.storyboard */; };
+		666743342564571800217BF1 /* GraficWeaherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666743322564571800217BF1 /* GraficWeaherTableViewCell.swift */; };
+		666743352564571800217BF1 /* GraficWeaherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666743332564571800217BF1 /* GraficWeaherTableViewCell.xib */; };
+		667FD439257967AF00641895 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD438257967AF00641895 /* String+Utils.swift */; };
+		667FD43B257971C300641895 /* SportsFetcher+Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD43A257971C200641895 /* SportsFetcher+Games.swift */; };
+		667FD43D257972E300641895 /* SportFetcher + Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD43C257972E300641895 /* SportFetcher + Team.swift */; };
+		66B06660257C09920047F778 /* UIAlertViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0665F257C09920047F778 /* UIAlertViewController+Utils.swift */; };
+		66B07BCB259288ED00DE3EEB /* RegisterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCA259288ED00DE3EEB /* RegisterObject.swift */; };
+		66B07BCF2592933000DE3EEB /* RegisterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */; };
+		66B07BD02592933000DE3EEB /* RegisterInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */; };
+		66DDF5902576C95E00954A5A /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDF58F2576C95E00954A5A /* Date+Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663340A82561A37A00DFDDC9 /* MainWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		663340A92561A37A00DFDDC9 /* MainWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		663340AF2561A3B800DFDDC9 /* WindWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		663340B02561A3B800DFDDC9 /* WindWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		663340B92561C3A300DFDDC9 /* CountryWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		663340BA2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		663340BD2561C63E00DFDDC9 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		663340BE2561C63E00DFDDC9 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		663340C22561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoHorizontalLabelsTableViewCell.swift; sourceTree = "<group>"; };
+		663340C32561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoHorizontalLabelsTableViewCell.xib; sourceTree = "<group>"; };
+		663C92F82587E19800C0E5E2 /* TeamListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListResponse.swift; sourceTree = "<group>"; };
+		663CB0282579603F00356FD6 /* TeamsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsDetailsViewController.swift; sourceTree = "<group>"; };
+		663CB02A2579605500356FD6 /* TeamsDetailsiewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsDetailsiewModel.swift; sourceTree = "<group>"; };
+		663CB02D257960DB00356FD6 /* GameDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsTVCell.swift; sourceTree = "<group>"; };
+		663CB02E257960DB00356FD6 /* GameDetailsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameDetailsTVCell.xib; sourceTree = "<group>"; };
+		66415BB1256A76090079BDA5 /* NetworkSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSevice.swift; sourceTree = "<group>"; };
+		66415BB4256A795E0079BDA5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		66415BB7256A7DB80079BDA5 /* SportsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFetcher.swift; sourceTree = "<group>"; };
+		66415BB9256A854F0079BDA5 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		66415BBB256A86700079BDA5 /* PageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResponse.swift; sourceTree = "<group>"; };
+		66415BBD256A87110079BDA5 /* GameListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListResponse.swift; sourceTree = "<group>"; };
+		66415BC0256A879B0079BDA5 /* GamesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
+		66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewModel.swift; sourceTree = "<group>"; };
+		664227CF2583D9930035E6B1 /* TeamsNBAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNBAViewController.swift; sourceTree = "<group>"; };
+		664227D12583D9AF0035E6B1 /* TeamsNBAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNBAViewModel.swift; sourceTree = "<group>"; };
+		664227D42583E3670035E6B1 /* TeamCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCVCell.swift; sourceTree = "<group>"; };
+		664227D52583E3670035E6B1 /* TeamCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCVCell.xib; sourceTree = "<group>"; };
+		66427999255C5CF100930567 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6642799B255C61A500930567 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		6642799E255C635100930567 /* MainWeatherParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherParameters.swift; sourceTree = "<group>"; };
+		664279A0255C642C00930567 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		664279A2255C648900930567 /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		664279A4255C650200930567 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		664279A6255C65B300930567 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		664279A9255C729A00930567 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		664333D72562F8CA002AE079 /* CoordWeatherTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordWeatherTableviewCell.swift; sourceTree = "<group>"; };
+		664333D82562F8CA002AE079 /* CoordWeatherTableviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoordWeatherTableviewCell.xib; sourceTree = "<group>"; };
+		664333DE25630231002AE079 /* WeatherInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoView.swift; sourceTree = "<group>"; };
+		664333E025630240002AE079 /* WeatherInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherInfoView.xib; sourceTree = "<group>"; };
+		66439833255B210000B49E1B /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		66439836255B24C100B49E1B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		66439838255B293300B49E1B /* WeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
+		665777FE2590E37200F52D6E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		665778012590E39100F52D6E /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		665778032590E9BD00F52D6E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6662084A2575674600FA4BB5 /* DaysCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCVCell.swift; sourceTree = "<group>"; };
+		6662084B2575674600FA4BB5 /* DaysCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysCVCell.xib; sourceTree = "<group>"; };
+		6662084F25756BE700FA4BB5 /* DayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayObject.swift; sourceTree = "<group>"; };
+		66620852257579E000FA4BB5 /* CustomJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomJSONDecoder.swift; sourceTree = "<group>"; };
+		6664E992256EF54300CCAEFF /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		6664E993256EF54300CCAEFF /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		6665D060255727560003F68C /* NewsSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6665D063255727560003F68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6665D065255727560003F68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6665D067255727560003F68C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6665D06A255727560003F68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6665D06C2557275A0003F68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6665D06F2557275A0003F68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6665D0712557275A0003F68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666743322564571800217BF1 /* GraficWeaherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficWeaherTableViewCell.swift; sourceTree = "<group>"; };
+		666743332564571800217BF1 /* GraficWeaherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraficWeaherTableViewCell.xib; sourceTree = "<group>"; };
+		667FD438257967AF00641895 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		667FD43A257971C200641895 /* SportsFetcher+Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportsFetcher+Games.swift"; sourceTree = "<group>"; };
+		667FD43C257972E300641895 /* SportFetcher + Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportFetcher + Team.swift"; sourceTree = "<group>"; };
+		66B0665F257C09920047F778 /* UIAlertViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertViewController+Utils.swift"; sourceTree = "<group>"; };
+		66B07BCA259288ED00DE3EEB /* RegisterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterObject.swift; sourceTree = "<group>"; };
+		66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInfoView.swift; sourceTree = "<group>"; };
+		66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterInfoView.xib; sourceTree = "<group>"; };
+		66DDF58F2576C95E00954A5A /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6665D05D255727560003F68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663340A22561402D00DFDDC9 /* weatherTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				663340BD2561C63E00DFDDC9 /* WeatherTableViewCell.swift */,
+				663340BE2561C63E00DFDDC9 /* WeatherTableViewCell.xib */,
+			);
+			path = weatherTableViewCell;
+			sourceTree = "<group>";
+		};
+		663340A72561A1D100DFDDC9 /* MainWeasponsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				663340A82561A37A00DFDDC9 /* MainWeatherTableViewCell.swift */,
+				663340A92561A37A00DFDDC9 /* MainWeatherTableViewCell.xib */,
+			);
+			path = MainWeasponsTableViewCell;
+			sourceTree = "<group>";
+		};
+		663340AC2561A38D00DFDDC9 /* WindWeasponsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				663340AF2561A3B800DFDDC9 /* WindWeatherTableViewCell.swift */,
+				663340B02561A3B800DFDDC9 /* WindWeatherTableViewCell.xib */,
+			);
+			path = WindWeasponsTableViewCell;
+			sourceTree = "<group>";
+		};
+		663340B72561A41400DFDDC9 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				66674331256456EF00217BF1 /* GraficWeaherTableViewCell */,
+				664333D62562F8A1002AE079 /* CoordWeatherTableviewCell */,
+				663340C12561C6E000DFDDC9 /* TwoHorizontalLabelsTableViewCell */,
+				663340B82561A45400DFDDC9 /* CountryWeasponsTableViewCell */,
+				663340A22561402D00DFDDC9 /* weatherTableViewCell */,
+				663340A72561A1D100DFDDC9 /* MainWeasponsTableViewCell */,
+				663340AC2561A38D00DFDDC9 /* WindWeasponsTableViewCell */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		663340B82561A45400DFDDC9 /* CountryWeasponsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				663340B92561C3A300DFDDC9 /* CountryWeatherTableViewCell.swift */,
+				663340BA2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib */,
+			);
+			path = CountryWeasponsTableViewCell;
+			sourceTree = "<group>";
+		};
+		663340C12561C6E000DFDDC9 /* TwoHorizontalLabelsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				663340C22561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.swift */,
+				663340C32561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib */,
+			);
+			path = TwoHorizontalLabelsTableViewCell;
+			sourceTree = "<group>";
+		};
+		663CB0272579600E00356FD6 /* TeamsDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				663CB0282579603F00356FD6 /* TeamsDetailsViewController.swift */,
+				663CB02A2579605500356FD6 /* TeamsDetailsiewModel.swift */,
+			);
+			path = TeamsDetailsViewController;
+			sourceTree = "<group>";
+		};
+		663CB02C257960B600356FD6 /* GameDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				663CB02D257960DB00356FD6 /* GameDetailsTVCell.swift */,
+				663CB02E257960DB00356FD6 /* GameDetailsTVCell.xib */,
+			);
+			path = GameDetailsVC;
+			sourceTree = "<group>";
+		};
+		663FB8CE2576BD49008D7280 /* DaysCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				6662084A2575674600FA4BB5 /* DaysCVCell.swift */,
+				6662084B2575674600FA4BB5 /* DaysCVCell.xib */,
+			);
+			path = DaysCVCell;
+			sourceTree = "<group>";
+		};
+		663FB8CF2576BD5B008D7280 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6664E991256EF52300CCAEFF /* GameTableViewCell */,
+				663340B72561A41400DFDDC9 /* Weather */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		663FB8D02576BD72008D7280 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				663FB8CE2576BD49008D7280 /* DaysCVCell */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		663FB8D12576BDB8008D7280 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6665D069255727560003F68C /* Main.storyboard */,
+				6665D06E2557275A0003F68C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		663FB8D22576BDE4008D7280 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				66620851257579D700FA4BB5 /* Extensions */,
+				66427999255C5CF100930567 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		66415BAE256A70890079BDA5 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				66439838255B293300B49E1B /* WeatherFetcher.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		66415BAF256A75B80079BDA5 /* NetworkSevice */ = {
+			isa = PBXGroup;
+			children = (
+				66415BB1256A76090079BDA5 /* NetworkSevice.swift */,
+			);
+			path = NetworkSevice;
+			sourceTree = "<group>";
+		};
+		66415BB3256A79480079BDA5 /* NewsSports */ = {
+			isa = PBXGroup;
+			children = (
+				66415BB4256A795E0079BDA5 /* Game.swift */,
+				66415BB9256A854F0079BDA5 /* Team.swift */,
+				66415BBB256A86700079BDA5 /* PageResponse.swift */,
+				66415BBD256A87110079BDA5 /* GameListResponse.swift */,
+				663C92F82587E19800C0E5E2 /* TeamListResponse.swift */,
+				665778032590E9BD00F52D6E /* User.swift */,
+				66B07BCA259288ED00DE3EEB /* RegisterObject.swift */,
+			);
+			path = NewsSports;
+			sourceTree = "<group>";
+		};
+		66415BB6256A7D9C0079BDA5 /* SportsFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				66415BB7256A7DB80079BDA5 /* SportsFetcher.swift */,
+				667FD43A257971C200641895 /* SportsFetcher+Games.swift */,
+				667FD43C257972E300641895 /* SportFetcher + Team.swift */,
+			);
+			path = SportsFetcher;
+			sourceTree = "<group>";
+		};
+		66415BBF256A876E0079BDA5 /* GamesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66415BC0256A879B0079BDA5 /* GamesListViewController.swift */,
+				66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */,
+			);
+			path = GamesListViewController;
+			sourceTree = "<group>";
+		};
+		664227CE2583D9570035E6B1 /* TeamsLAbelNBAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				664227CF2583D9930035E6B1 /* TeamsNBAViewController.swift */,
+				664227D12583D9AF0035E6B1 /* TeamsNBAViewModel.swift */,
+			);
+			path = TeamsLAbelNBAViewController;
+			sourceTree = "<group>";
+		};
+		664227D32583E3480035E6B1 /* TeamsLabelNBATVCell */ = {
+			isa = PBXGroup;
+			children = (
+				664227D42583E3670035E6B1 /* TeamCVCell.swift */,
+				664227D52583E3670035E6B1 /* TeamCVCell.xib */,
+			);
+			path = TeamsLabelNBATVCell;
+			sourceTree = "<group>";
+		};
+		6642799D255C625600930567 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				664279A4255C650200930567 /* WeatherResponse.swift */,
+				6642799B255C61A500930567 /* Weather.swift */,
+				6642799E255C635100930567 /* MainWeatherParameters.swift */,
+				664279A0255C642C00930567 /* Wind.swift */,
+				664279A2255C648900930567 /* CountryData.swift */,
+				664279A6255C65B300930567 /* Coordinate.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		664333D62562F8A1002AE079 /* CoordWeatherTableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				664333D72562F8CA002AE079 /* CoordWeatherTableviewCell.swift */,
+				664333D82562F8CA002AE079 /* CoordWeatherTableviewCell.xib */,
+			);
+			path = CoordWeatherTableviewCell;
+			sourceTree = "<group>";
+		};
+		664333DB256301F8002AE079 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				663FB8D12576BDB8008D7280 /* Storyboards */,
+				66439831255B20BC00B49E1B /* ViewControllers */,
+				664333DC25630214002AE079 /* Views */,
+				66C5C2682559BEF60059268C /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		664333DC25630214002AE079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66B07BCC259292E700DE3EEB /* RegisterInfoView */,
+				664333DD25630221002AE079 /* WeatherInfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		664333DD25630221002AE079 /* WeatherInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				664333DE25630231002AE079 /* WeatherInfoView.swift */,
+				664333E025630240002AE079 /* WeatherInfoView.xib */,
+			);
+			path = WeatherInfoView;
+			sourceTree = "<group>";
+		};
+		66439831255B20BC00B49E1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6665D067255727560003F68C /* ViewController.swift */,
+				665777FD2590E33700F52D6E /* ProfileViewController */,
+				664227CE2583D9570035E6B1 /* TeamsLAbelNBAViewController */,
+				663CB0272579600E00356FD6 /* TeamsDetailsViewController */,
+				66415BBF256A876E0079BDA5 /* GamesListViewController */,
+				66439832255B20CF00B49E1B /* weatherController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		66439832255B20CF00B49E1B /* weatherController */ = {
+			isa = PBXGroup;
+			children = (
+				66439833255B210000B49E1B /* WeatherViewController.swift */,
+				664279A9255C729A00930567 /* WeatherViewModel.swift */,
+			);
+			path = weatherController;
+			sourceTree = "<group>";
+		};
+		66439835255B249F00B49E1B /* weatherService */ = {
+			isa = PBXGroup;
+			children = (
+				66439836255B24C100B49E1B /* WeatherService.swift */,
+			);
+			path = weatherService;
+			sourceTree = "<group>";
+		};
+		665777FD2590E33700F52D6E /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				665777FE2590E37200F52D6E /* RegisterViewController.swift */,
+				665778012590E39100F52D6E /* RegisterViewModel.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		6662084E25756BDE00FA4BB5 /* DayObject */ = {
+			isa = PBXGroup;
+			children = (
+				6662084F25756BE700FA4BB5 /* DayObject.swift */,
+			);
+			path = DayObject;
+			sourceTree = "<group>";
+		};
+		66620851257579D700FA4BB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66620852257579E000FA4BB5 /* CustomJSONDecoder.swift */,
+				66DDF58F2576C95E00954A5A /* Date+Utils.swift */,
+				667FD438257967AF00641895 /* String+Utils.swift */,
+				66B0665F257C09920047F778 /* UIAlertViewController+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6664E991256EF52300CCAEFF /* GameTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6664E992256EF54300CCAEFF /* GameTableViewCell.swift */,
+				6664E993256EF54300CCAEFF /* GameTableViewCell.xib */,
+			);
+			path = GameTableViewCell;
+			sourceTree = "<group>";
+		};
+		6665D057255727560003F68C = {
+			isa = PBXGroup;
+			children = (
+				6665D062255727560003F68C /* NewsSports */,
+				6665D061255727560003F68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6665D061255727560003F68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6665D060255727560003F68C /* NewsSports.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6665D062255727560003F68C /* NewsSports */ = {
+			isa = PBXGroup;
+			children = (
+				663FB8D22576BDE4008D7280 /* Utils */,
+				664333DB256301F8002AE079 /* UI */,
+				66C5C26D2559BF8E0059268C /* Models */,
+				66C5C26C2559BF740059268C /* Manangers */,
+				66C5C2692559BF370059268C /* SupportingFiles */,
+			);
+			path = NewsSports;
+			sourceTree = "<group>";
+		};
+		66674331256456EF00217BF1 /* GraficWeaherTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				666743322564571800217BF1 /* GraficWeaherTableViewCell.swift */,
+				666743332564571800217BF1 /* GraficWeaherTableViewCell.xib */,
+			);
+			path = GraficWeaherTableViewCell;
+			sourceTree = "<group>";
+		};
+		66B07BCC259292E700DE3EEB /* RegisterInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */,
+				66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */,
+			);
+			path = RegisterInfoView;
+			sourceTree = "<group>";
+		};
+		66C5C2682559BEF60059268C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				664227D32583E3480035E6B1 /* TeamsLabelNBATVCell */,
+				663CB02C257960B600356FD6 /* GameDetailsVC */,
+				663FB8D02576BD72008D7280 /* CollectionView */,
+				663FB8CF2576BD5B008D7280 /* TableView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		66C5C2692559BF370059268C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6665D063255727560003F68C /* AppDelegate.swift */,
+				6665D065255727560003F68C /* SceneDelegate.swift */,
+				6665D06C2557275A0003F68C /* Assets.xcassets */,
+				6665D0712557275A0003F68C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		66C5C26A2559BF400059268C /* Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				66415BB6256A7D9C0079BDA5 /* SportsFetcher */,
+				66415BAE256A70890079BDA5 /* Weather */,
+			);
+			path = Fetcher;
+			sourceTree = "<group>";
+		};
+		66C5C26B2559BF480059268C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				66415BAF256A75B80079BDA5 /* NetworkSevice */,
+				66439835255B249F00B49E1B /* weatherService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		66C5C26C2559BF740059268C /* Manangers */ = {
+			isa = PBXGroup;
+			children = (
+				66C5C26A2559BF400059268C /* Fetcher */,
+				66C5C26B2559BF480059268C /* Service */,
+			);
+			path = Manangers;
+			sourceTree = "<group>";
+		};
+		66C5C26D2559BF8E0059268C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6662084E25756BDE00FA4BB5 /* DayObject */,
+				66415BB3256A79480079BDA5 /* NewsSports */,
+				6642799D255C625600930567 /* Weather */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6665D05F255727560003F68C /* NewsSports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6665D0742557275A0003F68C /* Build configuration list for PBXNativeTarget "NewsSports" */;
+			buildPhases = (
+				6665D05C255727560003F68C /* Sources */,
+				6665D05D255727560003F68C /* Frameworks */,
+				6665D05E255727560003F68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsSports;
+			productName = NewsSports;
+			productReference = 6665D060255727560003F68C /* NewsSports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6665D058255727560003F68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Виктор Ильюкевич";
+				TargetAttributes = {
+					6665D05F255727560003F68C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6665D05B255727560003F68C /* Build configuration list for PBXProject "NewsSports" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6665D057255727560003F68C;
+			productRefGroup = 6665D061255727560003F68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6665D05F255727560003F68C /* NewsSports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6665D05E255727560003F68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663340AB2561A37A00DFDDC9 /* MainWeatherTableViewCell.xib in Resources */,
+				663340B22561A3B800DFDDC9 /* WindWeatherTableViewCell.xib in Resources */,
+				663340BC2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib in Resources */,
+				666743352564571800217BF1 /* GraficWeaherTableViewCell.xib in Resources */,
+				664333E125630240002AE079 /* WeatherInfoView.xib in Resources */,
+				6665D0702557275A0003F68C /* LaunchScreen.storyboard in Resources */,
+				66B07BD02592933000DE3EEB /* RegisterInfoView.xib in Resources */,
+				6665D06D2557275A0003F68C /* Assets.xcassets in Resources */,
+				664333DA2562F8CA002AE079 /* CoordWeatherTableviewCell.xib in Resources */,
+				663CB030257960DB00356FD6 /* GameDetailsTVCell.xib in Resources */,
+				6665D06B255727560003F68C /* Main.storyboard in Resources */,
+				6662084D2575674600FA4BB5 /* DaysCVCell.xib in Resources */,
+				663340C02561C63E00DFDDC9 /* WeatherTableViewCell.xib in Resources */,
+				663340C52561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib in Resources */,
+				6664E995256EF54300CCAEFF /* GameTableViewCell.xib in Resources */,
+				664227D72583E3670035E6B1 /* TeamCVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6665D05C255727560003F68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6642799F255C635100930567 /* MainWeatherParameters.swift in Sources */,
+				663CB0292579603F00356FD6 /* TeamsDetailsViewController.swift in Sources */,
+				66415BB2256A76090079BDA5 /* NetworkSevice.swift in Sources */,
+				66B06660257C09920047F778 /* UIAlertViewController+Utils.swift in Sources */,
+				66415BBA256A854F0079BDA5 /* Team.swift in Sources */,
+				663340AA2561A37A00DFDDC9 /* MainWeatherTableViewCell.swift in Sources */,
+				66415BB8256A7DB80079BDA5 /* SportsFetcher.swift in Sources */,
+				66DDF5902576C95E00954A5A /* Date+Utils.swift in Sources */,
+				665777FF2590E37200F52D6E /* RegisterViewController.swift in Sources */,
+				664279A1255C642C00930567 /* Wind.swift in Sources */,
+				66415BBE256A87110079BDA5 /* GameListResponse.swift in Sources */,
+				6642799C255C61A500930567 /* Weather.swift in Sources */,
+				6664E994256EF54300CCAEFF /* GameTableViewCell.swift in Sources */,
+				66415BC1256A879B0079BDA5 /* GamesListViewController.swift in Sources */,
+				66B07BCF2592933000DE3EEB /* RegisterInfoView.swift in Sources */,
+				664279AA255C729A00930567 /* WeatherViewModel.swift in Sources */,
+				66439839255B293300B49E1B /* WeatherFetcher.swift in Sources */,
+				664227D02583D9930035E6B1 /* TeamsNBAViewController.swift in Sources */,
+				66415BB5256A795E0079BDA5 /* Game.swift in Sources */,
+				66415BBC256A86700079BDA5 /* PageResponse.swift in Sources */,
+				663CB02F257960DB00356FD6 /* GameDetailsTVCell.swift in Sources */,
+				667FD43D257972E300641895 /* SportFetcher + Team.swift in Sources */,
+				663340BF2561C63E00DFDDC9 /* WeatherTableViewCell.swift in Sources */,
+				667FD43B257971C300641895 /* SportsFetcher+Games.swift in Sources */,
+				6665D068255727560003F68C /* ViewController.swift in Sources */,
+				664279A5255C650200930567 /* WeatherResponse.swift in Sources */,
+				664279A3255C648900930567 /* CountryData.swift in Sources */,
+				6662085025756BE700FA4BB5 /* DayObject.swift in Sources */,
+				66439834255B210000B49E1B /* WeatherViewController.swift in Sources */,
+				664333DF25630231002AE079 /* WeatherInfoView.swift in Sources */,
+				664227D62583E3670035E6B1 /* TeamCVCell.swift in Sources */,
+				665778022590E39100F52D6E /* RegisterViewModel.swift in Sources */,
+				6665D064255727560003F68C /* AppDelegate.swift in Sources */,
+				6662084C2575674600FA4BB5 /* DaysCVCell.swift in Sources */,
+				66620853257579E000FA4BB5 /* CustomJSONDecoder.swift in Sources */,
+				663CB02B2579605500356FD6 /* TeamsDetailsiewModel.swift in Sources */,
+				6642799A255C5CF100930567 /* Constants.swift in Sources */,
+				667FD439257967AF00641895 /* String+Utils.swift in Sources */,
+				66B07BCB259288ED00DE3EEB /* RegisterObject.swift in Sources */,
+				663C92F92587E19800C0E5E2 /* TeamListResponse.swift in Sources */,
+				6665D066255727560003F68C /* SceneDelegate.swift in Sources */,
+				66415BC3256A87BB0079BDA5 /* GamesListViewModel.swift in Sources */,
+				66439837255B24C100B49E1B /* WeatherService.swift in Sources */,
+				665778042590E9BD00F52D6E /* User.swift in Sources */,
+				663340B12561A3B800DFDDC9 /* WindWeatherTableViewCell.swift in Sources */,
+				664227D22583D9AF0035E6B1 /* TeamsNBAViewModel.swift in Sources */,
+				666743342564571800217BF1 /* GraficWeaherTableViewCell.swift in Sources */,
+				664333D92562F8CA002AE079 /* CoordWeatherTableviewCell.swift in Sources */,
+				664279A7255C65B300930567 /* Coordinate.swift in Sources */,
+				663340C42561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.swift in Sources */,
+				663340BB2561C3A300DFDDC9 /* CountryWeatherTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6665D069255727560003F68C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6665D06A255727560003F68C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6665D06E2557275A0003F68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6665D06F2557275A0003F68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6665D0722557275A0003F68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6665D0732557275A0003F68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6665D0752557275A0003F68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewsSports/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.NewsSports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6665D0762557275A0003F68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewsSports/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.NewsSports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6665D05B255727560003F68C /* Build configuration list for PBXProject "NewsSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6665D0722557275A0003F68C /* Debug */,
+				6665D0732557275A0003F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6665D0742557275A0003F68C /* Build configuration list for PBXNativeTarget "NewsSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6665D0752557275A0003F68C /* Debug */,
+				6665D0762557275A0003F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6665D058255727560003F68C /* Project object */;
+}
