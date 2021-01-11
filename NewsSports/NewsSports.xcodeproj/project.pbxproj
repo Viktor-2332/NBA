@@ -49,9 +49,11 @@
 		66439834255B210000B49E1B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439833255B210000B49E1B /* WeatherViewController.swift */; };
 		66439837255B24C100B49E1B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439836255B24C100B49E1B /* WeatherService.swift */; };
 		66439839255B293300B49E1B /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66439838255B293300B49E1B /* WeatherFetcher.swift */; };
+		664584F425AC515700714B9F /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664584F325AC515700714B9F /* ImageService.swift */; };
 		665777FF2590E37200F52D6E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665777FE2590E37200F52D6E /* RegisterViewController.swift */; };
 		665778022590E39100F52D6E /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665778012590E39100F52D6E /* RegisterViewModel.swift */; };
 		665778042590E9BD00F52D6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665778032590E9BD00F52D6E /* User.swift */; };
+		665A0A6F259B9FE8002B7B0D /* SetImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A0A6E259B9FE8002B7B0D /* SetImageViewController.swift */; };
 		6662084C2575674600FA4BB5 /* DaysCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662084A2575674600FA4BB5 /* DaysCVCell.swift */; };
 		6662084D2575674600FA4BB5 /* DaysCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6662084B2575674600FA4BB5 /* DaysCVCell.xib */; };
 		6662085025756BE700FA4BB5 /* DayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662084F25756BE700FA4BB5 /* DayObject.swift */; };
@@ -66,6 +68,9 @@
 		6665D0702557275A0003F68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6665D06E2557275A0003F68C /* LaunchScreen.storyboard */; };
 		666743342564571800217BF1 /* GraficWeaherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666743322564571800217BF1 /* GraficWeaherTableViewCell.swift */; };
 		666743352564571800217BF1 /* GraficWeaherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666743332564571800217BF1 /* GraficWeaherTableViewCell.xib */; };
+		66705811259A4D7D008172AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705810259A4D7D008172AE /* LoginViewController.swift */; };
+		66705813259A4D88008172AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705812259A4D88008172AE /* LoginViewModel.swift */; };
+		66705815259A588E008172AE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705814259A588E008172AE /* Login.swift */; };
 		667FD439257967AF00641895 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD438257967AF00641895 /* String+Utils.swift */; };
 		667FD43B257971C300641895 /* SportsFetcher+Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD43A257971C200641895 /* SportsFetcher+Games.swift */; };
 		667FD43D257972E300641895 /* SportFetcher + Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FD43C257972E300641895 /* SportFetcher + Team.swift */; };
@@ -73,6 +78,10 @@
 		66B07BCB259288ED00DE3EEB /* RegisterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCA259288ED00DE3EEB /* RegisterObject.swift */; };
 		66B07BCF2592933000DE3EEB /* RegisterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */; };
 		66B07BD02592933000DE3EEB /* RegisterInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */; };
+		66C7E39625A38AAA0065174C /* ImagewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39525A38AAA0065174C /* ImagewsViewController.swift */; };
+		66C7E39D25A393500065174C /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39C25A393500065174C /* ImagesViewModel.swift */; };
+		66C7E3A025A395E70065174C /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39E25A395E70065174C /* ImagesCollectionViewCell.swift */; };
+		66C7E3A125A395E70065174C /* ImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C7E39F25A395E70065174C /* ImagesCollectionViewCell.xib */; };
 		66DDF5902576C95E00954A5A /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDF58F2576C95E00954A5A /* Date+Utils.swift */; };
 /* End PBXBuildFile section */
 
@@ -119,9 +128,11 @@
 		66439833255B210000B49E1B /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		66439836255B24C100B49E1B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		66439838255B293300B49E1B /* WeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
+		664584F325AC515700714B9F /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		665777FE2590E37200F52D6E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		665778012590E39100F52D6E /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		665778032590E9BD00F52D6E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		665A0A6E259B9FE8002B7B0D /* SetImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetImageViewController.swift; sourceTree = "<group>"; };
 		6662084A2575674600FA4BB5 /* DaysCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCVCell.swift; sourceTree = "<group>"; };
 		6662084B2575674600FA4BB5 /* DaysCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysCVCell.xib; sourceTree = "<group>"; };
 		6662084F25756BE700FA4BB5 /* DayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayObject.swift; sourceTree = "<group>"; };
@@ -138,6 +149,9 @@
 		6665D0712557275A0003F68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666743322564571800217BF1 /* GraficWeaherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficWeaherTableViewCell.swift; sourceTree = "<group>"; };
 		666743332564571800217BF1 /* GraficWeaherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraficWeaherTableViewCell.xib; sourceTree = "<group>"; };
+		66705810259A4D7D008172AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66705812259A4D88008172AE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		66705814259A588E008172AE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		667FD438257967AF00641895 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		667FD43A257971C200641895 /* SportsFetcher+Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportsFetcher+Games.swift"; sourceTree = "<group>"; };
 		667FD43C257972E300641895 /* SportFetcher + Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportFetcher + Team.swift"; sourceTree = "<group>"; };
@@ -145,6 +159,10 @@
 		66B07BCA259288ED00DE3EEB /* RegisterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterObject.swift; sourceTree = "<group>"; };
 		66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInfoView.swift; sourceTree = "<group>"; };
 		66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterInfoView.xib; sourceTree = "<group>"; };
+		66C7E39525A38AAA0065174C /* ImagewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagewsViewController.swift; sourceTree = "<group>"; };
+		66C7E39C25A393500065174C /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		66C7E39E25A395E70065174C /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		66C7E39F25A395E70065174C /* ImagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCollectionViewCell.xib; sourceTree = "<group>"; };
 		66DDF58F2576C95E00954A5A /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,6 +275,8 @@
 		663FB8D02576BD72008D7280 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				664227D32583E3480035E6B1 /* TeamsLabelNBATVCell */,
+				66C7E39725A38AB20065174C /* ImagesCollectionViewCell */,
 				663FB8CE2576BD49008D7280 /* DaysCVCell */,
 			);
 			path = CollectionView;
@@ -306,6 +326,7 @@
 				663C92F82587E19800C0E5E2 /* TeamListResponse.swift */,
 				665778032590E9BD00F52D6E /* User.swift */,
 				66B07BCA259288ED00DE3EEB /* RegisterObject.swift */,
+				66705814259A588E008172AE /* Login.swift */,
 			);
 			path = NewsSports;
 			sourceTree = "<group>";
@@ -323,6 +344,7 @@
 		66415BBF256A876E0079BDA5 /* GamesListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				663CB0272579600E00356FD6 /* TeamsDetailsViewController */,
 				66415BC0256A879B0079BDA5 /* GamesListViewController.swift */,
 				66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */,
 			);
@@ -402,9 +424,11 @@
 			isa = PBXGroup;
 			children = (
 				6665D067255727560003F68C /* ViewController.swift */,
+				66C7E39425A38A830065174C /* ImagewsViewController */,
+				665A0A6D259B9FC5002B7B0D /* SetImageViewController */,
+				6670580F259A4D5E008172AE /* LoginViewController */,
 				665777FD2590E33700F52D6E /* ProfileViewController */,
 				664227CE2583D9570035E6B1 /* TeamsLAbelNBAViewController */,
-				663CB0272579600E00356FD6 /* TeamsDetailsViewController */,
 				66415BBF256A876E0079BDA5 /* GamesListViewController */,
 				66439832255B20CF00B49E1B /* weatherController */,
 			);
@@ -428,6 +452,14 @@
 			path = weatherService;
 			sourceTree = "<group>";
 		};
+		664584F225AC513A00714B9F /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				664584F325AC515700714B9F /* ImageService.swift */,
+			);
+			path = ImageService;
+			sourceTree = "<group>";
+		};
 		665777FD2590E33700F52D6E /* ProfileViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +467,14 @@
 				665778012590E39100F52D6E /* RegisterViewModel.swift */,
 			);
 			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		665A0A6D259B9FC5002B7B0D /* SetImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				665A0A6E259B9FE8002B7B0D /* SetImageViewController.swift */,
+			);
+			path = SetImageViewController;
 			sourceTree = "<group>";
 		};
 		6662084E25756BDE00FA4BB5 /* DayObject */ = {
@@ -502,6 +542,15 @@
 			path = GraficWeaherTableViewCell;
 			sourceTree = "<group>";
 		};
+		6670580F259A4D5E008172AE /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66705810259A4D7D008172AE /* LoginViewController.swift */,
+				66705812259A4D88008172AE /* LoginViewModel.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
 		66B07BCC259292E700DE3EEB /* RegisterInfoView */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,7 +563,6 @@
 		66C5C2682559BEF60059268C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				664227D32583E3480035E6B1 /* TeamsLabelNBATVCell */,
 				663CB02C257960B600356FD6 /* GameDetailsVC */,
 				663FB8D02576BD72008D7280 /* CollectionView */,
 				663FB8CF2576BD5B008D7280 /* TableView */,
@@ -545,6 +593,7 @@
 		66C5C26B2559BF480059268C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				664584F225AC513A00714B9F /* ImageService */,
 				66415BAF256A75B80079BDA5 /* NetworkSevice */,
 				66439835255B249F00B49E1B /* weatherService */,
 			);
@@ -568,6 +617,24 @@
 				6642799D255C625600930567 /* Weather */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		66C7E39425A38A830065174C /* ImagewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66C7E39525A38AAA0065174C /* ImagewsViewController.swift */,
+				66C7E39C25A393500065174C /* ImagesViewModel.swift */,
+			);
+			path = ImagewsViewController;
+			sourceTree = "<group>";
+		};
+		66C7E39725A38AB20065174C /* ImagesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				66C7E39E25A395E70065174C /* ImagesCollectionViewCell.swift */,
+				66C7E39F25A395E70065174C /* ImagesCollectionViewCell.xib */,
+			);
+			path = ImagesCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,6 +700,7 @@
 				663340BC2561C3A300DFDDC9 /* CountryWeatherTableViewCell.xib in Resources */,
 				666743352564571800217BF1 /* GraficWeaherTableViewCell.xib in Resources */,
 				664333E125630240002AE079 /* WeatherInfoView.xib in Resources */,
+				66C7E3A125A395E70065174C /* ImagesCollectionViewCell.xib in Resources */,
 				6665D0702557275A0003F68C /* LaunchScreen.storyboard in Resources */,
 				66B07BD02592933000DE3EEB /* RegisterInfoView.xib in Resources */,
 				6665D06D2557275A0003F68C /* Assets.xcassets in Resources */,
@@ -658,29 +726,36 @@
 				663CB0292579603F00356FD6 /* TeamsDetailsViewController.swift in Sources */,
 				66415BB2256A76090079BDA5 /* NetworkSevice.swift in Sources */,
 				66B06660257C09920047F778 /* UIAlertViewController+Utils.swift in Sources */,
+				664584F425AC515700714B9F /* ImageService.swift in Sources */,
 				66415BBA256A854F0079BDA5 /* Team.swift in Sources */,
 				663340AA2561A37A00DFDDC9 /* MainWeatherTableViewCell.swift in Sources */,
 				66415BB8256A7DB80079BDA5 /* SportsFetcher.swift in Sources */,
+				66705813259A4D88008172AE /* LoginViewModel.swift in Sources */,
 				66DDF5902576C95E00954A5A /* Date+Utils.swift in Sources */,
 				665777FF2590E37200F52D6E /* RegisterViewController.swift in Sources */,
+				66C7E39625A38AAA0065174C /* ImagewsViewController.swift in Sources */,
 				664279A1255C642C00930567 /* Wind.swift in Sources */,
 				66415BBE256A87110079BDA5 /* GameListResponse.swift in Sources */,
 				6642799C255C61A500930567 /* Weather.swift in Sources */,
 				6664E994256EF54300CCAEFF /* GameTableViewCell.swift in Sources */,
 				66415BC1256A879B0079BDA5 /* GamesListViewController.swift in Sources */,
+				66705815259A588E008172AE /* Login.swift in Sources */,
 				66B07BCF2592933000DE3EEB /* RegisterInfoView.swift in Sources */,
 				664279AA255C729A00930567 /* WeatherViewModel.swift in Sources */,
 				66439839255B293300B49E1B /* WeatherFetcher.swift in Sources */,
 				664227D02583D9930035E6B1 /* TeamsNBAViewController.swift in Sources */,
 				66415BB5256A795E0079BDA5 /* Game.swift in Sources */,
 				66415BBC256A86700079BDA5 /* PageResponse.swift in Sources */,
+				665A0A6F259B9FE8002B7B0D /* SetImageViewController.swift in Sources */,
 				663CB02F257960DB00356FD6 /* GameDetailsTVCell.swift in Sources */,
 				667FD43D257972E300641895 /* SportFetcher + Team.swift in Sources */,
 				663340BF2561C63E00DFDDC9 /* WeatherTableViewCell.swift in Sources */,
 				667FD43B257971C300641895 /* SportsFetcher+Games.swift in Sources */,
+				66705811259A4D7D008172AE /* LoginViewController.swift in Sources */,
 				6665D068255727560003F68C /* ViewController.swift in Sources */,
 				664279A5255C650200930567 /* WeatherResponse.swift in Sources */,
 				664279A3255C648900930567 /* CountryData.swift in Sources */,
+				66C7E3A025A395E70065174C /* ImagesCollectionViewCell.swift in Sources */,
 				6662085025756BE700FA4BB5 /* DayObject.swift in Sources */,
 				66439834255B210000B49E1B /* WeatherViewController.swift in Sources */,
 				664333DF25630231002AE079 /* WeatherInfoView.swift in Sources */,
@@ -700,6 +775,7 @@
 				665778042590E9BD00F52D6E /* User.swift in Sources */,
 				663340B12561A3B800DFDDC9 /* WindWeatherTableViewCell.swift in Sources */,
 				664227D22583D9AF0035E6B1 /* TeamsNBAViewModel.swift in Sources */,
+				66C7E39D25A393500065174C /* ImagesViewModel.swift in Sources */,
 				666743342564571800217BF1 /* GraficWeaherTableViewCell.swift in Sources */,
 				664333D92562F8CA002AE079 /* CoordWeatherTableviewCell.swift in Sources */,
 				664279A7255C65B300930567 /* Coordinate.swift in Sources */,

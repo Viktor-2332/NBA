@@ -25,23 +25,26 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func loginAction(_ sender: Any) {
-
+        
         let email = emailText.text ?? ""
         let password = passwordText.text ?? ""
         let name = nameText.text  ?? ""
-        if email.isEmpty == false, password.isEmpty == false, name.isEmpty == false,  {
-            password.count > 8
-            
-            let registerObject = RegisterObject(email: email, name: name, password: password)
-            profileviewModel.register(registerObject: registerObject) { [weak self] error in
-                guard let self = self else { return }
-                if let error = error {
-                    UIAlertController.show(title: "Error", message: error.localizedDescription, view: self)
-                } else {
-                    self.navigationController?.popViewController(animated: true)
+        if email.isEmpty == false, password.isEmpty == false, name.isEmpty == false  {
+            if password.count > 8 {
+                
+                let registerObject = RegisterObject(email: email, name: name, password: password)
+                profileviewModel.register(registerObject: registerObject) { [weak self] error in
+                    guard let self = self else { return }
+                    if let error = error {
+                        UIAlertController.show(title: "Error", message: error.localizedDescription, view: self)
+                    } else {
+                        self.navigationController?.popViewController(animated: true)
+                    }
                 }
-            }
             } else {
+                UIAlertController.show(title: "Error", message: "Пароль должен быть больше 8 символов", view: self)
+            }
+        } else {
             UIAlertController.show(title: "Error", message: "all fields must be filled", view: self)
         }
         

@@ -498,5 +498,85 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B05F8751-0047-464C-8654-2A7C1FD250C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsSports/UI/ViewControllers/SetImageViewController/SetImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loadImageAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41A1B004-5FBE-440A-A6F8-75AE4565492D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsSports/UI/ViewControllers/SetImageViewController/SetImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "saveImageAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41A1B004-5FBE-440A-A6F8-75AE4565492D - ea9d1ac5c39166db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsSports.SetImageViewController.saveImageAction(Any) -&gt; ()"
+                  moduleName = "NewsSports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktorilukevic/Documents/Work/NewsSportspProject/NewsSports/NewsSports/UI/ViewControllers/SetImageViewController/SetImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2006">
+               </Location>
+               <Location
+                  uuid = "41A1B004-5FBE-440A-A6F8-75AE4565492D - ea9d1ac5c39166db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsSports.SetImageViewController.saveImageAction(Any) -&gt; ()"
+                  moduleName = "NewsSports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktorilukevic/Documents/Work/NewsSportspProject/NewsSports/NewsSports/UI/ViewControllers/SetImageViewController/SetImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2226">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CF5C5F5-0634-4CFA-88B2-94240467D881"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsSports/UI/ViewControllers/SetImageViewController/SetImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadSavedImageAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

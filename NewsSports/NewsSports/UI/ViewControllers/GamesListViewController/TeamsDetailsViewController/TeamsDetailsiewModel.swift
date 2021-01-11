@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+ 
 protocol TeamsDetailsViewModelProtocol : AnyObject {
     var team: Team? { get }
     

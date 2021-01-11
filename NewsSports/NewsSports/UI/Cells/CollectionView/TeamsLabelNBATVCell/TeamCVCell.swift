@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+ 
 class TeamCVCell: UICollectionViewCell {
     @IBOutlet private weak var teamIcon: UIImageView!
     @IBOutlet private weak var teamNameLabel: UILabel!

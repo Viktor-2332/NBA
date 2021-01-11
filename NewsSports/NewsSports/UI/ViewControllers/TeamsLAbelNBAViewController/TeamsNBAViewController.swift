@@ -68,12 +68,12 @@ class TeamsNBAViewController: UIViewController, UICollectionViewDataSource, UICo
     //MARK: RegisterInfoViewDelegate
     
     func registerButtonTapped() {
-           performSegue(withIdentifier: "RegisterViewController", sender: nil)
-       }
-       
-       func signInButtonTapped() {
-           performSegue(withIdentifier: "", sender: nil)
-       }
+        performSegue(withIdentifier: "RegisterViewController", sender: nil)
+    }
+    
+    func signInButtonTapped() {
+        performSegue(withIdentifier: "LoginViewController", sender: nil)
+    }
        
 //    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+ 
 class TeamsDetailsViewController: UIViewController {
     @IBOutlet weak var NameComandLabel: UILabel!
     @IBOutlet weak var StaticsGameLabel: UILabel!

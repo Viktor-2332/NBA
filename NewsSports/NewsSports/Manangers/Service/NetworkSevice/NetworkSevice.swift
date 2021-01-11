@@ -10,7 +10,7 @@
 import Foundation
 
 class NetworkSevice {
-    func request(urlStrring:String, completion: @escaping (Result<Data,Error>) -> Void) {
+    func request(urlStrring:String, completion: @escaping (Result<Data,Error>) -> ()) {
         guard let url = URL(string: urlStrring) else { return }
         URLSession.shared.dataTask(with: url) { (data, responce, error) in
             DispatchQueue.main.async {

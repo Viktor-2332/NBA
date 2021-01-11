@@ -38,6 +38,7 @@
                         </subviews>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="hVF-8a-NhV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RIN-9v-3bY"/>
                     <constraint firstAttribute="bottom" secondItem="hVF-8a-NhV" secondAttribute="bottom" id="dG1-CX-0MU"/>
