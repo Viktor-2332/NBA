@@ -9,7 +9,7 @@
 import Foundation
 
 protocol TeamsNBAViewModelProtocol: AnyObject {
-    var teams: [Team] { get set }
+    var teams: [TeamCVCellViewModel] { get set }
     
     func fetchTeams(completion: @escaping ((Error?) -> ()))
 }
@@ -18,7 +18,7 @@ class TeamsNBAViewModel: TeamsNBAViewModelProtocol {
     
     
     private var teamListResponse: TeamListResponse?
-    var teams: [Team] = []
+    var teams: [TeamCVCellViewModel] = []
     
     private let fetcher: SportFetcherTeamsProtocol
     //нужен фетчер jr
@@ -35,7 +35,7 @@ class TeamsNBAViewModel: TeamsNBAViewModelProtocol {
             switch result {
             case .success(let teamListResponse):
                 self?.teamListResponse = teamListResponse
-                self?.teams = teamListResponse.data ?? []
+                self?.teams = (teamListResponse.data ?? []).compactMap({TeamCVCellViewModel(abbreviation: $0.abbreviation, fullName: $0.fullName)})
                 completion(nil)
             case .failure(let error):
                 completion(error)

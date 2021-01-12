@@ -53,8 +53,8 @@ class TeamsNBAViewController: UIViewController, UICollectionViewDataSource, UICo
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let team = viewModel.teams[indexPath.row]
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TeamCVCell", for: indexPath) as? TeamCVCell {
-            cell.configure(team: team)
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TeamCVCell", for: indexPath) as? VeticalImageWithTextCell {
+            cell.configure(teamModel: team)
             return cell
         }
          return UICollectionViewCell()
@@ -108,7 +108,7 @@ class TeamsNBAViewController: UIViewController, UICollectionViewDataSource, UICo
     private func  setupCollectionView() {
         view.layoutIfNeeded()
         
-        collectionView.register(UINib(nibName: "TeamCVCell", bundle: nil), forCellWithReuseIdentifier: "TeamCVCell")
+        collectionView.register(UINib(nibName: "VeticalImageWithTextCell", bundle: nil), forCellWithReuseIdentifier: "TeamCVCell")
         collectionView.dataSource = self
         collectionView.delegate = self
 

@@ -8,7 +8,17 @@
 
 import UIKit
  
-class TeamCVCell: UICollectionViewCell {
+struct VeticalImageWithTextCellViewModel {
+    var image: String?
+    var title: String?
+    
+    init(image: String?, title: String?) {
+        self.image = image
+        self.title = title
+    }
+
+}
+class VeticalImageWithTextCell: UICollectionViewCell {
     @IBOutlet private weak var teamIcon: UIImageView!
     @IBOutlet private weak var teamNameLabel: UILabel!
 
@@ -18,9 +28,9 @@ class TeamCVCell: UICollectionViewCell {
         prepareAppearance()
     }
     
-    func configure(team: Team) {
-        teamIcon.image = UIImage(named: team.abbreviation ?? "")
-        teamNameLabel.text = team.fullName
+    func configure(teamModel: VeticalImageWithTextCellViewModel) {
+        teamIcon.image = UIImage(named: teamModel.image ?? "")
+        teamNameLabel.text = teamModel.title
         
     }
 //    private func setupView() {

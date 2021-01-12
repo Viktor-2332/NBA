@@ -32,8 +32,8 @@
 		66415BC3256A87BB0079BDA5 /* GamesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */; };
 		664227D02583D9930035E6B1 /* TeamsNBAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227CF2583D9930035E6B1 /* TeamsNBAViewController.swift */; };
 		664227D22583D9AF0035E6B1 /* TeamsNBAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227D12583D9AF0035E6B1 /* TeamsNBAViewModel.swift */; };
-		664227D62583E3670035E6B1 /* TeamCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227D42583E3670035E6B1 /* TeamCVCell.swift */; };
-		664227D72583E3670035E6B1 /* TeamCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664227D52583E3670035E6B1 /* TeamCVCell.xib */; };
+		664227D62583E3670035E6B1 /* VeticalImageWithTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664227D42583E3670035E6B1 /* VeticalImageWithTextCell.swift */; };
+		664227D72583E3670035E6B1 /* VeticalImageWithTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664227D52583E3670035E6B1 /* VeticalImageWithTextCell.xib */; };
 		6642799A255C5CF100930567 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66427999255C5CF100930567 /* Constants.swift */; };
 		6642799C255C61A500930567 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642799B255C61A500930567 /* Weather.swift */; };
 		6642799F255C635100930567 /* MainWeatherParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642799E255C635100930567 /* MainWeatherParameters.swift */; };
@@ -78,7 +78,7 @@
 		66B07BCB259288ED00DE3EEB /* RegisterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCA259288ED00DE3EEB /* RegisterObject.swift */; };
 		66B07BCF2592933000DE3EEB /* RegisterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */; };
 		66B07BD02592933000DE3EEB /* RegisterInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */; };
-		66C7E39625A38AAA0065174C /* ImagewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39525A38AAA0065174C /* ImagewsViewController.swift */; };
+		66C7E39625A38AAA0065174C /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39525A38AAA0065174C /* ImagesViewController.swift */; };
 		66C7E39D25A393500065174C /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39C25A393500065174C /* ImagesViewModel.swift */; };
 		66C7E3A025A395E70065174C /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7E39E25A395E70065174C /* ImagesCollectionViewCell.swift */; };
 		66C7E3A125A395E70065174C /* ImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C7E39F25A395E70065174C /* ImagesCollectionViewCell.xib */; };
@@ -111,8 +111,8 @@
 		66415BC2256A87BB0079BDA5 /* GamesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewModel.swift; sourceTree = "<group>"; };
 		664227CF2583D9930035E6B1 /* TeamsNBAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNBAViewController.swift; sourceTree = "<group>"; };
 		664227D12583D9AF0035E6B1 /* TeamsNBAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNBAViewModel.swift; sourceTree = "<group>"; };
-		664227D42583E3670035E6B1 /* TeamCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCVCell.swift; sourceTree = "<group>"; };
-		664227D52583E3670035E6B1 /* TeamCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCVCell.xib; sourceTree = "<group>"; };
+		664227D42583E3670035E6B1 /* VeticalImageWithTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeticalImageWithTextCell.swift; sourceTree = "<group>"; };
+		664227D52583E3670035E6B1 /* VeticalImageWithTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VeticalImageWithTextCell.xib; sourceTree = "<group>"; };
 		66427999255C5CF100930567 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6642799B255C61A500930567 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		6642799E255C635100930567 /* MainWeatherParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherParameters.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		66B07BCA259288ED00DE3EEB /* RegisterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterObject.swift; sourceTree = "<group>"; };
 		66B07BCD2592933000DE3EEB /* RegisterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInfoView.swift; sourceTree = "<group>"; };
 		66B07BCE2592933000DE3EEB /* RegisterInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterInfoView.xib; sourceTree = "<group>"; };
-		66C7E39525A38AAA0065174C /* ImagewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagewsViewController.swift; sourceTree = "<group>"; };
+		66C7E39525A38AAA0065174C /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 		66C7E39C25A393500065174C /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
 		66C7E39E25A395E70065174C /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		66C7E39F25A395E70065174C /* ImagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -363,8 +363,8 @@
 		664227D32583E3480035E6B1 /* TeamsLabelNBATVCell */ = {
 			isa = PBXGroup;
 			children = (
-				664227D42583E3670035E6B1 /* TeamCVCell.swift */,
-				664227D52583E3670035E6B1 /* TeamCVCell.xib */,
+				664227D42583E3670035E6B1 /* VeticalImageWithTextCell.swift */,
+				664227D52583E3670035E6B1 /* VeticalImageWithTextCell.xib */,
 			);
 			path = TeamsLabelNBATVCell;
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				6665D067255727560003F68C /* ViewController.swift */,
-				66C7E39425A38A830065174C /* ImagewsViewController */,
+				66C7E39425A38A830065174C /* ImagesViewController */,
 				665A0A6D259B9FC5002B7B0D /* SetImageViewController */,
 				6670580F259A4D5E008172AE /* LoginViewController */,
 				665777FD2590E33700F52D6E /* ProfileViewController */,
@@ -619,13 +619,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		66C7E39425A38A830065174C /* ImagewsViewController */ = {
+		66C7E39425A38A830065174C /* ImagesViewController */ = {
 			isa = PBXGroup;
 			children = (
-				66C7E39525A38AAA0065174C /* ImagewsViewController.swift */,
+				66C7E39525A38AAA0065174C /* ImagesViewController.swift */,
 				66C7E39C25A393500065174C /* ImagesViewModel.swift */,
 			);
-			path = ImagewsViewController;
+			path = ImagesViewController;
 			sourceTree = "<group>";
 		};
 		66C7E39725A38AB20065174C /* ImagesCollectionViewCell */ = {
@@ -711,7 +711,7 @@
 				663340C02561C63E00DFDDC9 /* WeatherTableViewCell.xib in Resources */,
 				663340C52561C6FE00DFDDC9 /* TwoHorizontalLabelsTableViewCell.xib in Resources */,
 				6664E995256EF54300CCAEFF /* GameTableViewCell.xib in Resources */,
-				664227D72583E3670035E6B1 /* TeamCVCell.xib in Resources */,
+				664227D72583E3670035E6B1 /* VeticalImageWithTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,7 +733,7 @@
 				66705813259A4D88008172AE /* LoginViewModel.swift in Sources */,
 				66DDF5902576C95E00954A5A /* Date+Utils.swift in Sources */,
 				665777FF2590E37200F52D6E /* RegisterViewController.swift in Sources */,
-				66C7E39625A38AAA0065174C /* ImagewsViewController.swift in Sources */,
+				66C7E39625A38AAA0065174C /* ImagesViewController.swift in Sources */,
 				664279A1255C642C00930567 /* Wind.swift in Sources */,
 				66415BBE256A87110079BDA5 /* GameListResponse.swift in Sources */,
 				6642799C255C61A500930567 /* Weather.swift in Sources */,
@@ -759,7 +759,7 @@
 				6662085025756BE700FA4BB5 /* DayObject.swift in Sources */,
 				66439834255B210000B49E1B /* WeatherViewController.swift in Sources */,
 				664333DF25630231002AE079 /* WeatherInfoView.swift in Sources */,
-				664227D62583E3670035E6B1 /* TeamCVCell.swift in Sources */,
+				664227D62583E3670035E6B1 /* VeticalImageWithTextCell.swift in Sources */,
 				665778022590E39100F52D6E /* RegisterViewModel.swift in Sources */,
 				6665D064255727560003F68C /* AppDelegate.swift in Sources */,
 				6662084C2575674600FA4BB5 /* DaysCVCell.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ImagewsViewController.swift
+//  ImagesViewController.swift
 //  NewsSports
 //
 //  Created by Виктор Ильюкевич on 04.01.2021.
@@ -8,16 +8,31 @@
 
 import UIKit
 
-class ImagewsViewController: UIViewController, UICollectionViewDataSource {
+class ImagesViewController: UIViewController, UICollectionViewDataSource {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let viewModel: ImageViewModelProtocol = ImagesViewModel()
+    private let viewModel: ImageViewModelProtocol = ImagesViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        viewModel.images.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let image = viewModel.images[indexPath.row]
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesCollectionViewCell", for : indexPath) as? ImagesCollectionViewCell {
+            cell.configure(imageURLString: image)
+            return cell
+        }
+        return UICollectionViewCell()
+    }
+   
+    //MARK: - Private
     private func setupCollectionView() {
         collectionView.register(UINib(nibName: "ImagesCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ImagesCollectionViewCell")
         let flowLayout = UICollectionViewFlowLayout()
@@ -27,17 +42,4 @@ class ImagewsViewController: UIViewController, UICollectionViewDataSource {
         collectionView.dataSource = self
         
     }
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        viewModel.images.count
-    }
-
-       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let image = viewModel.images[indexPath.row]
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesCollectionViewCell", for : indexPath) as? ImagesCollectionViewCell {
-            cell.configure(imageURLString: image)
-            return cell
-        }
-        return UICollectionViewCell()
-       }
-   
 }
